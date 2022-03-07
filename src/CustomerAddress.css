@@ -1,0 +1,74 @@
+.image{
+  background-image: url(../src/image/addressimage.jpg);
+  background-size: cover;
+ 
+}
+
+
+#address-page {
+    height: 768px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+.address-form  {
+    max-width:550px;
+    height: 580px;
+    background-color:  whitesmoke;
+    border: 1px solid whitesmoke;
+    box-shadow: 15px 15px 10px grey;
+    border-radius: 10px;
+   
+} 
+
+.crd_brd2{
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    width: 600px;
+    height: 710px;
+    border-radius: 15px;
+    position: relative;
+    top:2rem;
+    margin-bottom: 3rem;
+   
+}
+
+
+
+
+
+.row {
+    display:flex;
+    flex-direction:row;
+    margin-top: 2rem;
+}
+
+
+
+.body {
+    background: whitesmoke;
+    padding:5px 10px;
+}
+
+
+
+
+@media (max-width: 800px) {
+    .row{
+      flex-direction:column; 
+    }
+    .ft1{
+        width: "434px";
+    }
+    .signup-form  {
+        flex:1;
+        max-width:500px;
+        background-color: #EFF0F1;
+        border-radius: 10px;
+        border: 1px solid #999;
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+    } 
+}

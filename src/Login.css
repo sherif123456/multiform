@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img1{
+ 
+    height: 768px;
+    background-image: url(../src/image/img3.webp);
+    background-size: cover;
+  }
+
+
+  .card_brd{
+    margin: auto;
+    position: relative;
+    top: 5rem;  
+    width: 1250px;
+    height: 600px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    overflow: hidden;
+    
+  }
+
+  .card_brd1{
+    position: relative;
+    left: 3.5rem;
+    top: 1.5rem;
+    width: 500px;
+    height: 550px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 20px 20px 10px lightgray;
+  }
+
+   .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    
+  }
+
+  .flex-item-right {
+    position: relative;
+    bottom: 31rem;
+    left:38rem
+   
+  }
+
+  .img2 {
+    height: 520px;
+    width: 620px;
+  }
+

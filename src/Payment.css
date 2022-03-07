@@ -1,0 +1,85 @@
+.bx{
+  width: 1684px;
+  height: 965px;
+  background-image: url(../src/image/paymentimage.jpg);
+  background-size: cover;
+}
+
+  form {
+    margin-top: 2rem;
+    margin: 30px auto 0;
+    max-width: 400px;
+    
+  }
+  
+  .form-actions {
+    margin-top: 15px;
+  }
+
+  .img_2,.img_3,.img_4{
+    height:150px;
+    width: 150px;
+  }
+
+  .Card_btn1,.Card_btn2,.Card_btn3{
+    margin-left: 12rem;
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-color: black;
+    Text-Decoration: None !important; 
+  }
+
+ .Card_btn1:hover,.Card_btn2:hover,.Card_btn3:hover{
+   background-color: white;
+   border-color: black;
+ }
+
+ .credit_form{
+   position: relative;
+   margin-top: -16rem;
+   margin-bottom: 2rem;
+ }
+  
+  @media (max-width: 800px) {
+    .bx{
+      width: auto;
+      height: 1768px;
+      background: #1f1f1f;
+    }
+
+    form {
+    margin: 30px auto 0;
+    max-width: 600px;
+  }
+
+  .img_2,.img_3,.img_4{
+    height:100px;
+    width: 100px;
+  }
+  .Card_btn1,.Card_btn2,.Card_btn3{
+    margin-top: 2rem; 
+    background-color: white;
+    height: 200px;
+    width: 250px;
+    border-color: black;
+    Text-Decoration: None !important; 
+  }
+
+ .Card_btn1:hover,.Card_btn2:hover,.Card_btn3:hover{
+   background-color: white;
+   border-color: black;
+ }
+
+ .credit_form{
+  position: relative;
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+
+.card{
+  margin-left: 2rem;
+}
+  
+  }
+  

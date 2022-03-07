@@ -1,0 +1,108 @@
+.img{
+  background-image: url(../src/image/image3.webp);
+  background-size: cover;
+}
+
+
+#registration-page {
+    height: 768px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+   
+}
+
+.signup-form  {
+    flex:1;
+    max-width:820px;
+    height: 300px;
+    background-color:  whitesmoke;
+    border: 1px solid whitesmoke;
+    margin-bottom: 5rem;
+    box-shadow: 15px 15px 10px grey;
+} 
+
+.crd_brd{
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    width: 900px;
+    height: 480px;
+    border-radius: 15px;
+    
+}
+
+/* .sm_bx{
+    border: 1px solid black;
+    position: relative;
+    justify-content: center;
+    width: 100px;
+    left:3rem 
+} */
+
+.form-header {
+    padding:10px;
+    background-color:  whitesmoke; 
+    border-bottom:1px solid  whitesmoke;
+    margin-right: 50.7rem;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.form-footer {
+    padding:8px 0;
+    background-color:  whitesmoke;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+     
+}
+
+.form-header h1 {
+    font-size: 28px;
+    text-align:center;
+    color:#666;
+}
+
+.row {
+    display:flex;
+    flex-direction:row;
+    margin-top: 2rem;
+}
+
+.input-group {
+   flex: 0.1;
+    display:flex;
+    margin-left: 2.2rem; 
+}
+
+.form-body {
+    background: whitesmoke;
+    padding:5px 10px;
+    
+}
+
+
+ 
+.btn_save:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+@media (max-width: 800px) {
+    .row{
+      flex-direction:column; 
+    }
+    .ft1{
+        width: "434px";
+    }
+    .signup-form  {
+        flex:1;
+        max-width:500px;
+        background-color: #EFF0F1;
+        border-radius: 10px;
+        border: 1px solid #999;
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+    } 
+}
