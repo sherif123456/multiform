@@ -75,7 +75,7 @@ function CustomerAddress() {
                       variant="outlined"
                       style={{ width: "175px" }} />
                   </div>
-                  <div class="input-group" >
+                  <div class="input-group" style={{marginTop:"2rem"}}>
                     <TextField className='tf1'
                       name='firstname'
                       label='LastName'
@@ -122,7 +122,7 @@ function CustomerAddress() {
 
             </Form>
           </Formik>
-          <Button variant="contained" style={{marginTop:"1rem",marginLeft:"31rem"}}  onClick={handleClick}>Next</Button>
+          <Button variant="contained" style={{marginTop:"1rem",marginLeft:"30rem"}}  onClick={handleClick}>Next</Button>
         </div>
       
       </section>
